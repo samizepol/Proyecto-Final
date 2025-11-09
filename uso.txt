@@ -1,0 +1,26 @@
+- Ejecutar el análisis histórico
+Por defecto se ejecuta con 3 años de datos simulados.
+Si quieres usar datos reales de las APIs, modificá la llamada en main():
+
+historical_data, metrics_df, ranking_df, figures = analyzer.run_historical_analysis(
+    years=3,
+    use_real_data=True
+)
+
+- Resultados generados
+Después de la ejecución, el programa genera:
+
+Archivo Excel:
+historical_technology_analysis_YYYYMMDD_HHMMSS.xlsx
+Contiene:
+  Datos históricos crudos
+  Métricas calculadas
+  Ranking ponderado
+  Resumen ejecutivo
+
+Gráficos interactivos:
+  Se abren automáticamente en el navegador:
+  Línea de tiempo multi-año
+  Comparación de crecimiento (CAGR vs Momentum)
+  Distribución de mercado
+  Ranking anual animado
