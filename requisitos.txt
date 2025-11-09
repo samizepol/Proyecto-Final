@@ -1,0 +1,27 @@
+Requisitos previos:
+  Python ≥ 3.8
+
+Librerías necesarias:
+  pandas 
+  numpy 
+  requests 
+  plotly 
+  openpyxl 
+  python-dotenv 
+  matplotlib
+
+Configuración de API Keys
+El proyecto utiliza las APIs de GitHub y Stack Overflow, que requieren autenticación para aumentar el límite de peticiones.
+
+- Cómo obtener tus claves
+  GitHub
+    Ir a https://github.com/settings/tokens
+    Crear un Personal Access Token (classic)
+    Habilitar el permiso public_repo
+    Copiar el token y guardarlo en el .env
+
+  Stack Overflow
+    Registrarte en Stack Apps
+    Crear una app (solo nombre y descripción)
+    Copiar la key generada
+    Guardarla en el .env
