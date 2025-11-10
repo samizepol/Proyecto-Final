@@ -20,7 +20,6 @@ Contiene:
 
 Gráficos interactivos:
   Se abren automáticamente en el navegador:
-  Línea de tiempo multi-año
   Comparación de crecimiento (CAGR vs Momentum)
   Distribución de mercado
   Ranking anual animado
