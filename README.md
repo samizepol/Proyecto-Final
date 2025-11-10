@@ -15,15 +15,11 @@ Incluye generación de datos reales o simulados, análisis estadístico (CAGR, v
 
   CAGR (Crecimiento anual compuesto)
   
-  Volatilidad trimestral
-  
   Crecimiento reciente y total
   
   Ranking compuesto ponderado
 
 3. Visualizaciones interactivas:
-
-Evolución histórica multi-año
 
 Comparación de crecimiento (CAGR vs Momentum)
 
